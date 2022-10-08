@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  width: 1450px;
+  justify-content: center;
+  margin: auto;
+  background-color: black;
+  position: relative;
+}
+.main button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 535px;
+  border-radius: 535px;
+  width: 535px;
+  transform: translate(-50%, -50%);
+  background: none;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+.video-container {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.video-container video {
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  width: 100%;
+  z-index: 0;
+}

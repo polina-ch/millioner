@@ -1,0 +1,147 @@
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+  &__indicator {
+    margin-top: 60.5vh;
+    margin-left: 141vh;
+    height: 4.4vh;
+    width: 10.4vw;
+    border-radius: 2.1vh;
+    border: 0.3vh solid gold;
+    background:#0f0041;
+  }
+  &__zal {
+    position: absolute;
+    height: 14.1vh;
+    margin-right: 155vh;
+  }
+  &__delzal {
+    position: absolute;
+    height: 15.5vh;
+    margin-right: 155vh;
+  }
+  &__delfifty {
+    position: absolute;
+    height: 15.5vh;
+    margin-top: 0.4vh;
+    margin-right: 122.5vh;
+  }
+  &__fifty {
+    position: absolute;
+    height: 12.67vh;
+    margin-top: 1.1267605633802817vh;
+    margin-right: 122.53521126760563vh;
+  }
+  &__call {
+    position: absolute;
+    height: 12.67605633802817vh;
+    margin-top: 1.1267605633802817vh;
+    margin-right: 92.95774647887323vh;
+  }
+  &__delcall {
+    position: absolute;
+    height: 15.352112676056338vh;
+    margin-top: 0.28169014084507044vh;
+    margin-right: 92.95774647887323vh;
+  }
+  &__money {
+    margin-left: 140.8450704225352vh;
+    margin-top: -1.408450704225352vh;
+    text-align: left;
+    p {
+      height: 1.1267605633802817vh;
+      color: gold;
+      font-weight: bold;
+      font-size: 3.0985915492957745vh;
+    }
+  }
+  &__question {
+    width: 53.47222222222222vw;
+    height: 12.67605633802817vh;
+    margin-top: 63.5vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 4.225352112676056vh;
+  }
+  &__first,
+  &__first__red,
+  &__first__green {
+    width: 24.305555555555557vw;
+    height: 6.197183098591549vh;
+    margin-top: 78.8vh;
+    margin-left:  -56.33802816901409vh;
+    text-align: left;
+    cursor: pointer;
+    color: gold;
+    font-size: 3.0985915492957745vh;
+    &__red {
+      color: red;
+    }
+    &__green {
+      color: green;
+    }
+  }
+  &__second,
+  &__second__red,
+  &__second__green {
+    width: 24.305555555555557vw;
+    height: 6.197183098591549vh;
+    margin-top: 78.8vh;
+    margin-left: 59.15492957746479vh;
+    text-align: left;
+    cursor: pointer;
+    color: gold;
+    font-size:3.0985915492957745vh;
+    &__red {
+      color: red;
+    }
+    &__green {
+      color: green;
+    }
+  }
+  &__third,
+  &__third__red,
+  &__third__green {
+    width: 24.305555555555557vw;
+    height: 6.197183098591549vh;
+    margin-top: 86.8vh;
+    margin-left: -56.33802816901409vh;
+    text-align: left;
+    cursor: pointer;
+    color: gold;
+    font-size: 3.0985915492957745vh;
+    &__red {
+      color: red;
+    }
+    &__green {
+      color: green;
+    }
+  }
+  &__fourth,
+  &__fourth__red,
+  &__fourth__green{
+    width: 24.305555555555557vw;
+    height: 6.197183098591549vh;
+    margin-top: 86.8vh;
+    margin-left: 59.15492957746479vh;
+    text-align: left;
+    cursor: pointer;
+    color: gold;
+    font-size: 3.0985915492957745vh;
+    &__red {
+      color: red;
+    }
+    &__green {
+      color: green;
+    }
+  }
+}
+.main div {
+  position: absolute;
+  font-weight: bold;
+}
